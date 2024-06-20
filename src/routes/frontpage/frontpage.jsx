@@ -5,10 +5,10 @@ function FrontPage() {
     <div className="fp-body">
       <div className="fp-container">
         <div className="fp-heading">
-          <h2 className="fp-hello">Hello,</h2>
-          <h2 className="fp-text" data-text="I'M JUHI DWIVEDI">
+          <h2 className="fp-hello">Hello! My name is,</h2>
+          <h2 className="fp-text" data-text="JUHI DWIVEDI">
             {" "}
-            I'M JUHI DWIVEDI
+            JUHI DWIVEDI
           </h2>
         </div>
 

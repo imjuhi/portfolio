@@ -1,8 +1,15 @@
+@import "../../responsive.scss";
+
+
 .ap-body{
   width: 100vw;
   height: 100vh;
   padding:30px;
   padding-left: 100px;
+
+  @include sm{
+    padding-top: 20px;
+  }
 
   .ap-about{
     display:flex;
@@ -13,12 +20,18 @@
     .ap-about-head{
       font-weight: 600;
       font-size: 3rem;
+
+  
       }
 
     .ap-about-content{
       display:flex;
       width:70%;
       align-items: center;
+
+      @include sm{
+        flex-direction: column;
+      }
       
       .ap-about-img{
         img{
@@ -42,6 +55,11 @@
       display:flex;
       gap:30px;
       padding-bottom: 30px;
+
+      @include sm{
+        flex-direction: column;
+        padding-right: 60px;
+      }
 
       .ap-skill{
         display:flex;

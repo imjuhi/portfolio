@@ -1,3 +1,6 @@
+@import "../../responsive.scss";
+
+
 .mynav{
   width: 100%;
   margin-top: 40px;
@@ -7,6 +10,11 @@
 
   .mynavleft{
     flex:5;
+    padding-left: 20px;
+    img{
+      width: 100px;
+      border-radius: 50%;
+    }
   }
   .mynavright{
     flex:2;

@@ -3,7 +3,9 @@ import "./navbar.scss";
 function Navbar() {
   return (
     <nav class="navbar navbar-expand-lg  mynav">
-      <div className="mynavleft"></div>
+      <div className="mynavleft">
+        <img src="/juhi.png" alt="" />
+      </div>
       <div class="container-fluid mynavright">
         <a class="navbar-brand" href="/">
           Home

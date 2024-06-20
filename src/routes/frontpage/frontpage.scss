@@ -1,3 +1,6 @@
+@import "../../responsive.scss";
+
+
 .fp-body {
   width: 100vw;
   height: 100vh;
@@ -32,14 +35,21 @@
         font-weight: 300;
         font-size: 1.5em; // Adjusted font size
         padding: 10px;
-        letter-spacing: 5px;
+        letter-spacing: 2px;
         border-right: 5px transparent solid;
         width:100%;
         white-space: nowrap;
         overflow: hidden;
         animation:
           typing 4s ,
-          cursor .4s step-end infinite alternate;      }
+          cursor .4s step-end infinite alternate;  
+          
+          @include sm{
+            font-size: 1.2em;
+          }
+        
+        
+        }
 
       .fp-text {
         position: relative;
@@ -63,6 +73,11 @@
 
         &:hover{
           text-shadow: 0 0 5px aquamarine;
+        }
+
+        @include sm{
+          letter-spacing: 6px;
+          font-size: 1.7em;
         }
 
 

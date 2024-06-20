@@ -78,11 +78,8 @@ function ProjectPage() {
                     <img src="/public/github.png" alt="" />
                   </a>
                 </div>
-                <div className="pp-cpptions">
-                  <p>
-                    The ultimate go to Real Estate ppp, to get you closer to
-                    your dream home!
-                  </p>
+                <div className="pp-captions">
+                  <p>The ultimate Real Estate App, to find your dream home!</p>
                 </div>
 
                 <div className="pp-tech-used">
@@ -107,7 +104,7 @@ function ProjectPage() {
                 <source src="/public/demo.mp4" type="video/mp4" />
                 browser does not support the videooo.
               </video> */}
-              <img className="pp-img" src="/public/counter.jpeg" alt="" />
+              <img className="pp-img" src="/public/counternew.jpeg" alt="" />
               <div className="pp-other-overlay">
                 <div className="pp-other-details">
                   <div className="pp-other-cpptions">
