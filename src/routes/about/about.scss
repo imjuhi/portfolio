@@ -29,6 +29,9 @@
       width:70%;
       align-items: center;
 
+      @include md{
+        flex-direction: column;
+      }
       @include sm{
         flex-direction: column;
       }
